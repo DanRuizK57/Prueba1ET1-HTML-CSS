@@ -1,0 +1,47 @@
+.contenedor {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.encabezado {
+    display: flex;
+    height: 250px;
+}
+
+.objetoEncabezado{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    width: 33%;
+    margin: 20px;
+}
+
+.objetoEncabezado > img {
+    height: 100px;
+    width: 100px;
+    border-radius: 50px;
+}
+
+.carousel-item > img{
+    opacity: 50%;
+}
+
+.tarjetas {
+    display: flex;
+    align-items: center;
+    text-align: center;
+}
+
+.tarjeta {
+    width: 30%;
+    border: solid gray 1px;
+    border-radius: 10px;
+    height: 100px;
+    margin: 20px;
+}
+
+footer {
+    text-align: center;
+}
