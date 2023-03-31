@@ -24,6 +24,32 @@
     border-radius: 50px;
 }
 
+.carousel-item {
+    position: relative;
+    display: inline-block;
+}
+
+.textoEncima {
+    position: absolute;
+    bottom: 50px;
+    left: 200px;
+}
+
+.textoEncima2 {
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    bottom: 50px;
+}
+
+.textoEncima3 {
+    position: absolute;
+    bottom: 50px;
+    right: 200px;
+}
+
 .carousel-item > img{
     opacity: 50%;
 }
