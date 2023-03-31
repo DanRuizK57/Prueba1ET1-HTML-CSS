@@ -53,12 +53,34 @@
     background-color: lightblue;
     border: solid blue 1px;
     border-radius: 10px;
+    color: blue;
     margin: 30px;
     padding: 10px;
 }
 
 .table {
     padding: 30px;
+}
+
+/*------------------ FORMULARIO -------------------------------------*/
+.contenedorFormulario {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.tituloFormulario {
+    background-color: lightcoral;
+    border: solid red 1px;
+    border-radius: 10px;
+    color: red;
+    font-weight: bold;
+    margin: 30px;
+    padding: 10px;
+}
+
+.formulario {
+    margin: 30px;
 }
 
 footer {
